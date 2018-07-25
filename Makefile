@@ -1,5 +1,5 @@
-NAME = osixia/light-baseimage
-VERSION = 1.1.1
+NAME = agenterp/docker-baseimage-armhf
+VERSION = 0.0.1
 
 .PHONY: build build-nocache test tag-latest push push-latest release git-tag-version
 

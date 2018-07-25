@@ -1,5 +1,5 @@
-FROM debian:stretch-slim
-MAINTAINER Bertrand Gouny <bertrand.gouny@osixia.net>
+FROM armhf/debian:stretch-slim
+MAINTAINER Dennis Uhlemann <dennis.uhlemann@agenterp.com>
 
 COPY . /container
 RUN /container/build.sh
